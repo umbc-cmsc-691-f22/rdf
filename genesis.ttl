@@ -1,0 +1,17 @@
+@prefix ex: <http://ex.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Adam a foaf:Person ;
+    ex:age 900 ;
+    foaf:gender "male",
+        "männlich"@de ;
+    foaf:knows ex:Eve ;
+    foaf:name "Adam" .
+
+ex:Eve a foaf:Person ;
+    ex:age 8.999e+02 ;
+    foaf:gender "female" ;
+    foaf:knows ex:Adam ;
+    foaf:name "Eve" .
+    
